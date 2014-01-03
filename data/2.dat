@@ -1,0 +1,17 @@
+# level 2
+
+import ocean2.png
+resize 0 800 800
+music shootatanything.ogg
+
+[Scrolling]
+#events part
+addbg
+grid 0 1 0 -140 0
+grid 0 0 0 -800 0
+music 0
+vel 0 10 0
+wait 7500
+end
+endbg
+END

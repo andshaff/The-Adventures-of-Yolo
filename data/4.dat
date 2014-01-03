@@ -1,0 +1,38 @@
+# level 4
+
+import background.png
+import stars_back.png
+import stars_front.png
+resize 0 800 1500
+music Feeling_Dark.ogg
+
+[Scrolling]
+#events part
+addbg
+grid 0 1 0 -860 0
+grid 0 0 0 -1500 0
+independent false
+delta 0.5 0.5
+endbg
+
+addbg
+grid 1 1 0 -128 0
+grid 1 0 0 -768 0
+vel 0 2 0
+music 0
+# so long and grueling!
+wait 8000
+end
+endbg
+
+parent 0 1
+
+addbg
+grid 2 1 0 -128 0
+grid 2 0 0 -768 0
+independent false
+delta 2 2
+endbg
+
+parent 2 1
+END

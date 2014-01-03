@@ -1,0 +1,25 @@
+# level 3
+
+import city.png
+resize 0 800 1500
+music deathangel.mp3
+import mist.png
+
+[Scrolling]
+#events part
+addbg
+grid 0 1 0 -860 0
+grid 0 0 0 -1500 0
+music 0
+vel 0 2 0
+wait 7200
+end
+endbg
+addbg
+grid 1 1 0 0 0
+grid 1 0 0 -640 0
+independent false
+delta 2 2
+endbg
+parent 1 0
+END

@@ -1,0 +1,14 @@
+# this file is for "endless" mode
+
+import enemysurfaceresample.png
+music shootatanything.ogg
+
+[Scrolling]
+#events part
+addbg
+grid 0 1 0 -860 0
+grid 0 0 0 -1500 0
+vel 0 2 0
+music 0
+endbg
+END
